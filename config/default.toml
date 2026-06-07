@@ -1,0 +1,27 @@
+[api]
+client_id     = ""
+client_secret = ""
+country_code  = "US"
+redirect_port = 8080
+
+[audio]
+quality        = "LOSSLESS"
+device         = "default"
+exclusive_mode = false
+
+[playback]
+gapless           = true
+crossfade_seconds = 3
+crossfade_enabled = false
+replaygain_mode   = "album"
+replaygain_preamp = 0.0
+
+[shuffle]
+mode = "off"
+
+[repeat]
+mode = "off"
+
+[ui]
+theme           = "dark"
+artwork_enabled = true
